@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bhagat's escape route</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+    <style media="screen">
+      body {
+        margin: 0px;
+      }
+      svg.mapLocs {
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+      }
+      img.mapBG {
+        z-index: 0;
+      }
+      div.mapContain {
+        position: relative;
+        overflow: hidden;
+        width: 720px;
+        height: 100vh;
+      }
+      div.entireContain {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="entireContain">
+      <div class="Desc">
+      </div>
+      <div class="mapContain">
+        <svg class="mapLocs zoomable" width="720px" height="950px"=></svg>
+        <img class="mapBG zoomable" src="SaundersMurder.jpg" width="720px">
+      </div>
+      <div class="nextButton">
+        <p>Next</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js">
+
+    </script>
+  </body>
+</html>
